@@ -1,0 +1,6 @@
+include plover_melani/dictionaries/melani_main.json
+include plover_melani/dictionaries/melani_orthography.json
+include plover_melani/dictionaries/melani_orthography.py
+include plover_melani/dictionaries/melani_user.json
+include pyproject.toml
+include tox.ini
