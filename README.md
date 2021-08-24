@@ -10,7 +10,7 @@ For more information on the method, see: https://www.stenolab.it/ (in Italian).
 
 ## Release history
 
-### *[unreleased]*
+### 0.5.9
 
 * add keymap for the OFT EVA
 
