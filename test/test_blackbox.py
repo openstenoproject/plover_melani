@@ -5,7 +5,7 @@ import re
 from plover import log, system
 from plover.registry import registry
 from plover_build_utils.testing import CaptureOutput, blackbox_test
-import plover_build_utils.testing
+import plover_build_utils.testing.blackbox
 
 
 log.set_level(log.DEBUG)
@@ -23,7 +23,7 @@ class ExtendedCaptureOutput(CaptureOutput):
             if m is not None:
                 self.text = self.text[:m.start()]
 
-plover_build_utils.testing.CaptureOutput = ExtendedCaptureOutput
+plover_build_utils.testing.blackbox.CaptureOutput = ExtendedCaptureOutput
 
 
 @blackbox_test
